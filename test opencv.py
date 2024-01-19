@@ -59,24 +59,6 @@ def create_random_fading_white_circle_image(size):
     return mask_blur
 
 
-# pattern_path = "pattern.jpeg"
-#
-# cut_pattern = cut_random_pattern_portion(pattern_path).save("cut_pattern.png")
-# src = cv2.imread('cut_pattern.png')
-# mask = np.zeros_like(src)
-#
-# print(mask.shape)
-# # (225, 400, 3)
-#
-# print(mask.dtype)
-# # uint8
-# cv2.circle(mask, (200, 100), 50, (255, 255, 255), thickness=-1)
-# cv2.fillConvexPoly(mask, np.array([[330, 50], [300, 200], [360, 150]]), (255, 255, 255))
-# mask_blur = cv2.GaussianBlur(mask, (71, 71), 0)
-#
-# dst = src * (mask_blur / 255)
-
-
 image_size = (256, 256)
 
 # Number of images with random circles
